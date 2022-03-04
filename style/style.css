@@ -564,18 +564,32 @@ body {
 /*---------------------------Leaderboard End---------------------------*/
 /*------------------------------Control Robot Start------------------------------*/
 .controlRobotContainer{
-  width: 98vw;
+  width: 90vw;
   margin: 5vh auto;
-  height: 67vh;
+  height: 140vh;
   display: grid;
   grid-template-columns: 44vw 44vw;
-  grid-template-rows: 30vh 30vh 30vh;
-  background: grey ;
+  grid-template-rows: 15vh 70vh 60vh;
+  background: rgba(255, 255, 255, 0.55); 
 }
 .controlRobottitle{
+  align-self: center;
+  padding: 8.2vh;
+}
+.title_color{
   color: white;
+  font-family: "Orbitron", sans-serif;
+}
+.controlRobotvideo{
+  grid-area: 2 / 1 / 3 / 3;
   justify-self: center;
-  margin-top: 5vh;
+  align-self: start;
+}
+iframe{
+  border: 5px solid rgb(13, 126, 231);
+  border-radius: 10px;
+  width: 80vw;
+  height: 60vh;
 }
 /*---------------------------Control Robot End---------------------------*/
 

@@ -24,8 +24,14 @@
 <?php include_once "header.html"; ?>
   
 <div class="controlRobotContainer">
-    <h1 class="controlRobottitle">Control A Robot</h1>
+    <div class ="controlRobottitle"> 
+    <h1 class="title_color">Control A Robot</h1>
+    </div>
+    <div class="controlRobotvideo">
+      <iframe width="800vw" height="450vh" src="https://www.youtube.com/embed/7u5DiF--sLg"></iframe>    
+    </div>
 </div>
+
 
 <?php include_once "footer.html"; ?>
 </body>
