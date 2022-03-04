@@ -562,7 +562,22 @@ body {
 }
 
 /*---------------------------Leaderboard End---------------------------*/
-
+/*------------------------------Control Robot Start------------------------------*/
+.controlRobotContainer{
+  width: 98vw;
+  margin: 5vh auto;
+  height: 67vh;
+  display: grid;
+  grid-template-columns: 44vw 44vw;
+  grid-template-rows: 30vh 30vh 30vh;
+  background: grey ;
+}
+.controlRobottitle{
+  color: white;
+  justify-self: center;
+  margin-top: 5vh;
+}
+/*---------------------------Control Robot End---------------------------*/
 
 
 

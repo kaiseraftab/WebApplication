@@ -24,7 +24,7 @@
 <?php include_once "header.html"; ?>
   
 <div class="controlRobotContainer">
-  
+    <h1 class="controlRobottitle">Control A Robot</h1>
 </div>
 
 <?php include_once "footer.html"; ?>
