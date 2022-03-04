@@ -21,13 +21,12 @@
   ?>
 </head>
 <body>
-<div class="body">
-  <?php
-    include_once "header.html";
-  ?>
+<?php include_once "header.html"; ?>
+  
+<div class="controlRobotContainer">
+  
+</div>
 
-<?php
-  include_once "footer.html";
-?>
+<?php include_once "footer.html"; ?>
 </body>
 </html>
